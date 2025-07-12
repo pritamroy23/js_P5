@@ -1,0 +1,35 @@
+
+
+*{  /* boiler plate of css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+/*---*/
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #5397fc;
+}
+.value {
+    font-size: 40px;
+    font-weight: 500;
+}
+.btn button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    margin:0px 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #898989;
+}
