@@ -19,12 +19,12 @@ body, html {
     gap: 20px;
     background-color: #5397fc;
 }
-.value {
+#value {
     font-size: 40px;
     font-weight: 500;
     color: #fff;
 }
-.btn button {
+#btn button {
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -35,7 +35,7 @@ body, html {
     box-shadow: 0 4px 10px #00000033;
     transition: all 0.2s ease-in-out;
 }
-.btn button:hover {
+#btn button:hover {
     box-shadow: 0 4px 10px #00000033;
     transform: translateY(2px);
 }
