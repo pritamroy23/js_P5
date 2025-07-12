@@ -22,14 +22,24 @@ body, html {
 .value {
     font-size: 40px;
     font-weight: 500;
+    color: #fff;
 }
 .btn button {
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    background-color: #fff;
+    background-color: #ffffff;
     margin:0px 10px;
     cursor: pointer;
-    box-shadow: 0 5px 0 #898989;
+    box-shadow: 0 4px 10px #00000033;
+    transition: all 0.2s ease-in-out;
+}
+.btn button:hover {
+    box-shadow: 0 4px 10px #00000033;
+    transform: translateY(2px);
+}
+label {
+    font-size: 20px;
+    color: #fff;
 }
